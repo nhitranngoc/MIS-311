@@ -5,15 +5,25 @@ This project involves conducting a detailed Exploratory Data Analysis (EDA) of s
 The objective is to analyze historical sales data to understand customer purchasing behaviors, assess the performance of various product categories, and identify opportunities to boost profitability and improve operational efficiency.
 # 2. Data Description
 The dataset was obtained from the supermarket's internal sales system, encompassing various transactions across its branches.
+
 Data Dimensions: 8 columns and 254 individual transaction records.
+
 Variable Definitions:
+
 Sale_id: Unique identifier for each transaction.
+
 Branch: Brand of the supermarket.
+
 City: Location of the branch.
+
 Customer_type: Segmentation of customers (Member vs. Normal).
+
 Product_name: The specific item purchased.
+
 Product_category: Broad classification of the product.
+
 Quantity: The number of units sold.
+
 Total_price: Final transaction amount in USD.
 # 3. Data Cleaning & Preparation
 To ensure high-quality analysis, a rigorous data cleaning process was performed using Excel:
@@ -24,7 +34,8 @@ Three duplicate records were identified and removed to avoid double-calculating 
 <img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/6a455040-8fb0-487f-abcf-267ced2daca6" />
 # Data consistency and standardization:
 I discovered significant anomalies in data entry in the Product Category column. Several items were severely misclassified (e.g., "Apples" were incorrectly categorized under "Personal Care" or "Stationery," and "Notebooks" were classified as "Beverages").
-  <img width="481" height="452" alt="image" src="https://github.com/user-attachments/assets/6f26e284-b154-467f-a7b1-ce15bf8bd35e" />
+
+<img width="481" height="452" alt="image" src="https://github.com/user-attachments/assets/6f26e284-b154-467f-a7b1-ce15bf8bd35e" />
 <img width="490" height="452" alt="image" src="https://github.com/user-attachments/assets/ffe6e034-f2fc-4534-b5b4-eaecb4c9a86a" />
 I systematically checked the Product Name column and reassigned any misclassified transactions to their correct, standardized categories. The following strict classification rules were applied:
 Apple ➔ Classified only in the Fruits category.
