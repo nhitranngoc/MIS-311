@@ -27,12 +27,12 @@ Quantity: The number of units sold.
 Total_price: Final transaction amount in USD.
 # 3. Data Cleaning & Preparation
 To ensure high-quality analysis, a rigorous data cleaning process was performed using Excel:
-# Removing duplicate records:
+- Removing duplicate records:
 I used the 'Remove duplicate records' feature with Sale_id as the primary key.
 <img width="975" height="472" alt="image" src="https://github.com/user-attachments/assets/205dfdb3-a4e3-4c4f-abf9-4b4a51a205db" />
 Three duplicate records were identified and removed to avoid double-calculating sales.
 <img width="975" height="471" alt="image" src="https://github.com/user-attachments/assets/6a455040-8fb0-487f-abcf-267ced2daca6" />
-# Data consistency and standardization:
+- Data consistency and standardization:
 I discovered significant anomalies in data entry in the Product Category column. Several items were severely misclassified (e.g., "Apples" were incorrectly categorized under "Personal Care" or "Stationery," and "Notebooks" were classified as "Beverages").
 
 <img width="481" height="452" alt="image" src="https://github.com/user-attachments/assets/6f26e284-b154-467f-a7b1-ce15bf8bd35e" /><img width="490" height="452" alt="image" src="https://github.com/user-attachments/assets/ffe6e034-f2fc-4534-b5b4-eaecb4c9a86a" />
@@ -50,7 +50,8 @@ Orange Juice ➔ Classified only in the Beverages category.
 Shampoo ➔ Classified only in the Personal Care category.
 
 <img width="471" height="435" alt="image" src="https://github.com/user-attachments/assets/ca367319-2eb2-4eeb-b226-0c9ff53f9ff5" /><img width="472" height="436" alt="image" src="https://github.com/user-attachments/assets/3b606c45-e760-4233-bd9a-7478ec6254a8" />
-# Handling Missing Values:
+- Handling Missing Values:
+
 Missing data points were handled using separate methods, tailored to the data to preserve both statistical validity and underlying business logic:
 
 Fill in Categorical Value (Customer Type): Several records were missing customer segment data.
@@ -72,6 +73,7 @@ I noticed that the unit price varies between different orders due to various fac
 Finally, to get the quantity of the missing orders, I divided the total price of each order by the average unit price, using the round function to round if the number is odd.
 
 <img width="975" height="152" alt="image" src="https://github.com/user-attachments/assets/7051e373-154a-40ec-a65b-a132f9e14f92" />
+
 # 4. Exploratory Data Analysis & Insights
 Insight 1: Revenue Distribution by Product Category
 
