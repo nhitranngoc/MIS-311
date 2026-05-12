@@ -52,6 +52,7 @@ Shampoo ➔ Classified only in the Personal Care category.
 <img width="471" height="435" alt="image" src="https://github.com/user-attachments/assets/ca367319-2eb2-4eeb-b226-0c9ff53f9ff5" /><img width="472" height="436" alt="image" src="https://github.com/user-attachments/assets/3b606c45-e760-4233-bd9a-7478ec6254a8" />
 # Handling Missing Values:
 Missing data points were handled using separate methods, tailored to the data to preserve both statistical validity and underlying business logic:
+
 Fill in Categorical Value (Customer Type): Several records were missing customer segment data.
 
 <img width="596" height="643" alt="image" src="https://github.com/user-attachments/assets/e8818910-f3c2-4a7d-a13c-029f302dec38" />
@@ -73,6 +74,7 @@ Finally, to get the quantity of the missing orders, I divided the total price of
 <img width="975" height="152" alt="image" src="https://github.com/user-attachments/assets/7051e373-154a-40ec-a65b-a132f9e14f92" />
 # 4. Exploratory Data Analysis & Insights
 Insight 1: Revenue Distribution by Product Category
+
 An analysis of total revenue reveals the financial contribution of each product segment. The personal care category is the leading revenue driver ($7,424.13), closely followed by stationery ($6,979.10). This indicates strong consumer demand for essential health and office products. Management should prioritize inventory levels for these categories and consider bundled product packages (e.g., combining stationery with personal care items) to increase the average transaction value.
 
 <img width="429" height="205" alt="image" src="https://github.com/user-attachments/assets/68d906ce-0604-44a3-b94c-4b4a36b0e019" />
@@ -80,6 +82,7 @@ An analysis of total revenue reveals the financial contribution of each product 
 <img width="977" height="381" alt="image" src="https://github.com/user-attachments/assets/db03a0a4-d71d-4558-8092-b6bc44553ac8" />
 
 Insight 2: Customer Segment Performance & Loyalty Impact
+
 This analysis compares the purchasing power of registered members with that of normal customers (non-registered customers). "Member" customers contribute a significantly higher share of total revenue ($17,939.55) than "Normal" customers ($13,106.73). This gap is most pronounced in the stationery segment. The marketing department should focus on conversion campaigns to encourage regular customers to register as members, as membership demonstrates significantly higher lifetime value for the supermarket.
 
 <img width="742" height="239" alt="image" src="https://github.com/user-attachments/assets/44d28899-e157-4844-b297-db277e5552bd" />
